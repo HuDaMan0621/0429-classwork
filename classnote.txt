@@ -1,0 +1,26 @@
+example of using var
+
+var snack = 'Meow Mix'; 
+
+function getFood(food){
+        if (food) {
+            var snack = 'friskies';
+            return snack;
+        }
+        return snack;
+}
+
+getFood(false); //undefined 
+
+
+
+let snack ='Meow Mix'; 
+
+function getFood(food){
+        if (food){
+            var snack = 'friskies';
+            return snack;
+        }
+        return snack;
+}
+getFood(false); //Meow Mix;
